@@ -1,0 +1,74 @@
+.thumbnail img{
+	width: 100%;
+}
+
+.nopadding {
+	padding: 0;
+}
+
+.thumbnail .caption-full{
+	padding: 9px;
+}
+
+#delete-form {
+	display: inline;
+}
+
+#delete-comment-form {
+	display: inline;
+}
+
+#search-btn{
+	position: relative;
+    right: 5px;
+}
+
+header.jumbotron{
+	background-image: url(https://images.unsplash.com/photo-1495613455702-836d1327ebc6?ixlib=rb-1.2.1&q=80&fm=jpg&crop=entropy&cs=tinysrgb&w=1080&fit=max&ixid=eyJhcHBfaWQiOjF9);
+	background-size: cover;
+	background-repeat: no-repeat;
+    background-position: center center;
+    color: white;
+}
+
+header.jumbotron h1{
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.4);
+}
+
+p#subtitle{
+    text-shadow: 2px 4px 3px rgba(0,0,0,0.4);
+	font-family: 'Dancing Script', cursive;
+	font-size: 28px;
+	
+}
+
+#thumbnail-camp{
+	padding: 0;
+	box-shadow: 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12), 0 2px 4px -1px rgba(0,0,0,.3);
+	border-bottom: 5px solid #ddd;
+}
+#thumbnail-camp:hover {
+    transform: translate(0, -3px);
+    z-index: 100;
+	box-shadow: 0 8px 10px 1px rgba(0,0,0,.14), 0 3px 14px 2px rgba(0,0,0,.12), 0 5px 5px -3px rgba(0,0,0,.3);
+	transition: all .195s cubic-bezier(0.4, 0.0, 0.2, 1);
+    transition-property: all;
+    transition-duration: 0.195s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+}
+
+.checked {
+    color: orange;
+}
+
+.navbar{
+	font-size: 20px;
+	padding: .5rem 1rem;
+}
+
+/* Google Maps */
+#map {
+    height: 400px;
+    width: 100%;
+}
